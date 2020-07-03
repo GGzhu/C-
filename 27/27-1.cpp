@@ -9,7 +9,7 @@ public:
     Test(int i, int j):mStatus(false)
     {
         mi = i;
-return;
+        return;
         mj = j;
 
         mStatus = true;
