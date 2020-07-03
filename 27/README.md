@@ -37,10 +37,14 @@
 
 class TwoPhaseCons{
 private:
-    TwoPhaseCons(){   //第一阶段构造函数
+    TwoPhaseCons()
+    {   
+        //第一阶段构造函数
     }
-
-    bool construct(){ //第二阶段构造函数
+    
+    bool construct()
+    { 
+        //第二阶段构造函数
         return true;
     }
 
